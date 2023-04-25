@@ -1,0 +1,15 @@
+.well-know/*
+/addons/*.zip
+/addons/ewei_shopv2/data/global/*
+/addons/ewei_shopv2/data/goodscode/*
+/addons/ewei_shopv2/data/poster/*
+/addons/ewei_shopv2/data/poster_wxapp/*
+/addons/ewei_shopv2/data/qrcode/*
+/addons/ewei_shopv2/data/task/*
+/attachment/images/*
+/attachment/material/*
+/attachment/videos/*
+/data/logs/*
+/datazuixinban/*
+/video/shiping/*
+*.zip

@@ -1,0 +1,12 @@
+RewriteEngine on
+#Redirect permanent http://www.lianqin.shop/app/index.php?i=4&c=entry&m=ewei_shopv2&do=mobile&r=diypage&id=33 https://h5.lianqin.shop/
+
+RewriteCond %{http_host} http://www.lianqin.shop/app/index.php?i=4&c=entry&m=ewei_shopv2&do=mobile&r=diypage&id=33 [NC]
+RewriteRule ^(.*)$ https://h5.lianqin.shop/$1 [R=301,L]
+
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^http://www.lianqin.shop/app/index.php?i=4&c=entry&m=ewei_shopv2&do=mobile&r=diypage&id=33
+#RewriteRule (.*) https://h5.lianqin.shop/$1 [R=301,L]
+
+#RewriteCond %{REQUEST_URI} ^http://www.lianqin.shop/app/index.php?i=4&c=entry&m=ewei_shopv2&do=mobile&r=diypage&id=33 [NC]
+#RewriteRule ^(.*) https://h5.lianqin.shop/$1 [R=301,L]
